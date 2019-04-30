@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.app.dse_project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.example.app.dse_project.Home_page.SampleApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/dse"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AndroidLimeTheme">
+        <activity android:name="com.example.app.dse_project.Splash.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.app.dse_project.Fragment.Main_fragment" />
+        <activity android:name="com.example.app.dse_project.Fragment.Market_Statistics" />
+    </application>
+
+</manifest>
